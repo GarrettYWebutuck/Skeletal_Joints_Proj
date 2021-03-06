@@ -8,3 +8,9 @@ body
     margin: 0;
     background-color: gray;
 }
+
+.section_container
+{
+    margin: 5px 10px;
+    background-color: darkslategray;
+}
