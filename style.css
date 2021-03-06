@@ -52,11 +52,13 @@ main
     padding-right: 2vw;
     margin-top: 10px;
     margin-bottom: 10px;
+    min-height: 120px;
 }
 
 .section_container h2
 {
     margin-top: 0;
+    padding-top: 10px;
 }
 
 .section_container p
