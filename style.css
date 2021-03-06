@@ -25,6 +25,7 @@ nav h1
 main
 {
     background-color: #00ADB5;
+    top: 10vh;
 }
 
 .section_container
