@@ -12,6 +12,8 @@ body
 nav
 {
     background-color: #393E46;
+    top: 0;
+    height: 15%;
 }
 
 main
