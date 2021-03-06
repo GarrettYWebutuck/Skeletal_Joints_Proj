@@ -4,6 +4,7 @@
   --nav-bg-color: #393E46;
   --container-bg-color: #682222;
   --text-color: #EEEEEE;
+  --container-hr-color: #8A3333;
 }
 
 html
@@ -53,17 +54,56 @@ main
     margin-top: 10px;
     margin-bottom: 10px;
     min-height: 120px;
+    border-radius: 10px;
 }
 
 .section_container h2
 {
     margin-top: 0;
+    margin-bottom: 0;
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section_container h3
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section_container h4
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section_container p
 {
     margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.section_container hr
+{
+    border: none;
+    height: 5px;
+    background-color: var(--container-hr-color)
+}
+
+.section_container ul
+{
+    margin: 0;
+}
+
+.section_container ul li p
+{
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
 }
 
 #main_container
