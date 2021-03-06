@@ -6,10 +6,21 @@ html
 body
 {
     margin: 0;
+    background-color: #222831
+}
+
+nav
+{
+    background-color: #393E46;
+}
+
+main
+{
+    background-color: #00ADB5;
 }
 
 .section_container
 {
     margin: 5px 10px;
-    background-color: darkslategray;
+    background-color: #EEEEEE;
 }
