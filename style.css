@@ -91,7 +91,8 @@ main
 {
     border: none;
     height: 1vh;
-    background-color: var(--container-hr-color)
+    background-color: var(--container-hr-color);
+    border-radius: 4px;
 }
 
 .section_container ul
@@ -100,6 +101,18 @@ main
 }
 
 .section_container ul li p
+{
+    padding: 0;
+    margin: 0;
+    margin-left: 2vw;
+}
+
+.section_container ol
+{
+    margin: 0;
+}
+
+.section_container ol li p
 {
     padding: 0;
     margin: 0;
