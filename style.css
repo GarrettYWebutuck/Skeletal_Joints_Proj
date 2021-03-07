@@ -10,7 +10,9 @@
 html
 {
     margin: 0;
+    font-family: 'Cousine';
 }
+
 body
 {
     margin: 0;
@@ -18,14 +20,12 @@ body
     color: var(--text-color);
     height: 100vh;
     overflow: hidden;
-    font-family: 'Cousine', monospace;
 }
 
 nav
 {
     background-color: var(--nav-bg-color);
     top: 0;
-    font-family: 'Cousine', monospace;
 }
 nav h1
 {
@@ -33,7 +33,6 @@ nav h1
     margin-bottom: 0;
     line-height: 10vh;
     margin-left: 20px;
-    font-family: 'Cousine', monospace;
 }
 
 main
@@ -45,7 +44,6 @@ main
     height: 90vh;
     width: 100vw;
     overflow: hidden;
-    font-family: 'Cousine', monospace;
 }
 
 .section_container
@@ -57,7 +55,6 @@ main
     margin-bottom: 10px;
     min-height: 120px;
     border-radius: 10px;
-    font-family: 'Cousine', monospace;
 }
 
 .section_container h2
@@ -66,7 +63,6 @@ main
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Cousine', monospace;
 }
 
 .section_container h3
@@ -75,7 +71,6 @@ main
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Cousine', monospace;
 }
 
 .section_container h4
@@ -84,28 +79,24 @@ main
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Cousine', monospace;
 }
 
 .section_container p
 {
     margin-bottom: 0;
     padding-bottom: 10px;
-    font-family: 'Cousine', monospace;
 }
 
 .section_container hr
 {
     border: none;
     height: 5px;
-    background-color: var(--container-hr-color);
-    font-family: 'Cousine', monospace;
+    background-color: var(--container-hr-color)
 }
 
 .section_container ul
 {
     margin: 0;
-    font-family: 'Cousine', monospace;
 }
 
 .section_container ul li p
@@ -113,7 +104,6 @@ main
     padding: 0;
     margin: 0;
     margin-left: 10px;
-    font-family: 'Cousine', monospace;
 }
 
 #main_container
@@ -122,5 +112,4 @@ main
     margin-right: 10px;
     height: calc(90vh - 10px);
     overflow-y: scroll;
-    font-family: 'Cousine', monospace;
 }
