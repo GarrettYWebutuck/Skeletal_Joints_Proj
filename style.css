@@ -10,9 +10,7 @@
 html
 {
     margin: 0;
-    font-family: 'Cousine', monospace;
 }
-
 body
 {
     margin: 0;
@@ -20,6 +18,8 @@ body
     color: var(--text-color);
     height: 100vh;
     overflow: hidden;
+    font-family: 'Cousine', monospace;
+}
 }
 
 nav
