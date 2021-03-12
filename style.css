@@ -35,6 +35,11 @@ nav h1
     margin-left: 2vw;
 }
 
+img
+{
+    max-width: 30vw;
+}
+
 main
 {
     background-color: var(--main-bg-color);
